@@ -1,0 +1,52 @@
+{
+  "name": "tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@tailwindcss/ui": "^0.3.0",
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.3.0",
+    "@testing-library/user-event": "^12.0.7",
+    "framer-motion": "^2.4.1",
+    "miragejs": "^0.1.40",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "tailwindcss": "^1.4.6",
+    "use-query-params": "^1.1.4"
+  },
+  "resolutions": {
+    "jest-environment-jsdom": "^26.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "start:final": "REACT_APP_DEMO=true yarn start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/accessible-emoji": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.16.2"
+  }
+}
